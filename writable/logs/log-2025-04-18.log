@@ -1,0 +1,130 @@
+CRITICAL - 2025-04-18 07:11:04 --> syntax error, unexpected end of file
+#0 G:\My Drive\Program Web\pernikahan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dashboard')
+#1 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dashboard')
+#2 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#6 {main}
+CRITICAL - 2025-04-18 07:11:15 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 G:\My Drive\Program Web\pernikahan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dashboard')
+#1 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dashboard')
+#2 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#6 {main}
+CRITICAL - 2025-04-18 07:14:08 --> Class 'App\Controllers\DispensasiModel' not found
+#0 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->formDispensasi()
+#1 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#5 {main}
+CRITICAL - 2025-04-18 12:04:56 --> Class 'App\Controllers\VerifikasiModel' not found
+#0 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->dispensasi()
+#1 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#5 {main}
+CRITICAL - 2025-04-18 13:07:31 --> Invalid file: tabelpasangan.php
+#0 G:\My Drive\Program Web\pernikahan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabelpasangan.p...')
+#1 G:\My Drive\Program Web\pernikahan\system\Common.php(1089): CodeIgniter\View\View->render('tabelpasangan', Array, true)
+#2 G:\My Drive\Program Web\pernikahan\app\Controllers\Home.php(360): view('tabelpasangan', Array)
+#3 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->pasangan()
+#4 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#8 {main}
+CRITICAL - 2025-04-18 13:08:10 --> Invalid file: tabelpasangan.php
+#0 G:\My Drive\Program Web\pernikahan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabelpasangan.p...')
+#1 G:\My Drive\Program Web\pernikahan\system\Common.php(1089): CodeIgniter\View\View->render('tabelpasangan', Array, true)
+#2 G:\My Drive\Program Web\pernikahan\app\Controllers\Home.php(360): view('tabelpasangan', Array)
+#3 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->pasangan()
+#4 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#8 {main}
+CRITICAL - 2025-04-18 13:09:21 --> Invalid file: tabelpasangan.php
+#0 G:\My Drive\Program Web\pernikahan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabelpasangan.p...')
+#1 G:\My Drive\Program Web\pernikahan\system\Common.php(1089): CodeIgniter\View\View->render('tabelpasangan', Array, true)
+#2 G:\My Drive\Program Web\pernikahan\app\Controllers\Home.php(360): view('tabelpasangan', Array)
+#3 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->pasangan()
+#4 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#8 {main}
+CRITICAL - 2025-04-18 13:10:54 --> Invalid file: tabelpasangan.php
+#0 G:\My Drive\Program Web\pernikahan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabelpasangan.p...')
+#1 G:\My Drive\Program Web\pernikahan\system\Common.php(1089): CodeIgniter\View\View->render('tabelpasangan', Array, true)
+#2 G:\My Drive\Program Web\pernikahan\app\Controllers\Home.php(360): view('tabelpasangan', Array)
+#3 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->pasangan()
+#4 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#8 {main}
+CRITICAL - 2025-04-18 13:12:29 --> Invalid file: tabelpasangan.php
+#0 G:\My Drive\Program Web\pernikahan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabelpasangan.p...')
+#1 G:\My Drive\Program Web\pernikahan\system\Common.php(1089): CodeIgniter\View\View->render('tabelpasangan', Array, true)
+#2 G:\My Drive\Program Web\pernikahan\app\Controllers\Home.php(361): view('tabelpasangan', Array)
+#3 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->pasangan()
+#4 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#8 {main}
+ERROR - 2025-04-18 13:12:58 --> Unknown column 'pasangan.id_dispensasi' in 'on clause'
+CRITICAL - 2025-04-18 13:12:58 --> Call to a member function getResult() on bool
+#0 G:\My Drive\Program Web\pernikahan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 G:\My Drive\Program Web\pernikahan\app\Controllers\Home.php(341): CodeIgniter\BaseModel->findAll()
+#2 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->pasangan()
+#3 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#7 {main}
+ERROR - 2025-04-18 13:13:13 --> Unknown column 'pasangan.id_dispensasi' in 'on clause'
+CRITICAL - 2025-04-18 13:13:13 --> Call to a member function getResult() on bool
+#0 G:\My Drive\Program Web\pernikahan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 G:\My Drive\Program Web\pernikahan\app\Controllers\Home.php(341): CodeIgniter\BaseModel->findAll()
+#2 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->pasangan()
+#3 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#7 {main}
+CRITICAL - 2025-04-18 13:17:08 --> Invalid file: tabelpasangan.php
+#0 G:\My Drive\Program Web\pernikahan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabelpasangan.p...')
+#1 G:\My Drive\Program Web\pernikahan\system\Common.php(1089): CodeIgniter\View\View->render('tabelpasangan', Array, true)
+#2 G:\My Drive\Program Web\pernikahan\app\Controllers\Home.php(364): view('tabelpasangan', Array)
+#3 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->pasangan()
+#4 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#8 {main}
+CRITICAL - 2025-04-18 13:19:45 --> Invalid file: tabelpasangan.php
+#0 G:\My Drive\Program Web\pernikahan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabelpasangan.p...')
+#1 G:\My Drive\Program Web\pernikahan\system\Common.php(1089): CodeIgniter\View\View->render('tabelpasangan', Array, true)
+#2 G:\My Drive\Program Web\pernikahan\app\Controllers\Home.php(345): view('tabelpasangan', Array)
+#3 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->pasangan()
+#4 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#8 {main}
+CRITICAL - 2025-04-18 13:20:08 --> Invalid file: tabelpasangan.php
+#0 G:\My Drive\Program Web\pernikahan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabelpasangan.p...')
+#1 G:\My Drive\Program Web\pernikahan\system\Common.php(1089): CodeIgniter\View\View->render('tabelpasangan', Array, true)
+#2 G:\My Drive\Program Web\pernikahan\app\Controllers\Home.php(345): view('tabelpasangan', Array)
+#3 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->pasangan()
+#4 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#8 {main}

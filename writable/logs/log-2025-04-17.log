@@ -1,0 +1,63 @@
+CRITICAL - 2025-04-17 05:51:03 --> Allowed fields must be specified for model: App\Models\M_der
+#0 G:\My Drive\Program Web\pernikahan\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_de...')
+#1 G:\My Drive\Program Web\pernikahan\system\BaseModel.php(841): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 G:\My Drive\Program Web\pernikahan\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#3 G:\My Drive\Program Web\pernikahan\app\Models\M_der.php(83): CodeIgniter\Model->update('3', Array)
+#4 G:\My Drive\Program Web\pernikahan\app\Controllers\Home.php(254): App\Models\M_der->softDeleteUser('3', NULL)
+#5 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->softDeleteUser('3')
+#6 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#10 {main}
+CRITICAL - 2025-04-17 06:06:35 --> Class 'App\Controllers\UserModel' not found
+#0 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->softDeleteUser('3')
+#1 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#5 {main}
+CRITICAL - 2025-04-17 06:10:56 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 G:\My Drive\Program Web\pernikahan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/usr')
+#1 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/usr')
+#2 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#6 {main}
+CRITICAL - 2025-04-17 06:13:30 --> Call to undefined method App\Controllers\Home::logActivity()
+#0 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->usr()
+#1 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#5 {main}
+CRITICAL - 2025-04-17 06:16:49 --> Call to undefined method App\Models\UserModel::hapus
+#0 G:\My Drive\Program Web\pernikahan\app\Controllers\Home.php(268): CodeIgniter\Model->__call('hapus', Array)
+#1 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->deleteuser('5')
+#2 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#6 {main}
+CRITICAL - 2025-04-17 11:18:01 --> syntax error, unexpected '}', expecting ';' or ','
+#0 G:\My Drive\Program Web\pernikahan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dashboard')
+#1 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dashboard')
+#2 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#6 {main}
+CRITICAL - 2025-04-17 11:18:20 --> Class 'App\Controllers\PasanganModel' not found
+#0 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#1 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#5 {main}
+ERROR - 2025-04-17 11:18:42 --> Unknown column 'id_user' in 'where clause'
+ERROR - 2025-04-17 11:21:03 --> Unknown column 'id_user' in 'where clause'
+ERROR - 2025-04-17 11:45:25 --> Unknown column 'id_user' in 'where clause'
+ERROR - 2025-04-17 12:15:08 --> Unknown column 'id_user' in 'where clause'
+ERROR - 2025-04-17 12:46:30 --> User not found in database for id_user: 10
+ERROR - 2025-04-17 12:48:06 --> User not found in database for id_user: 10

@@ -1,0 +1,4 @@
+ERROR - 2025-04-19 11:32:39 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2025-04-19 12:53:08 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

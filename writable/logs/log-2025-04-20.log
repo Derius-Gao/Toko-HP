@@ -1,0 +1,56 @@
+CRITICAL - 2025-04-20 00:20:44 --> Class 'App\Controllers\PHPMailer' not found
+#0 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->aksi_forgot_password()
+#1 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#5 {main}
+CRITICAL - 2025-04-20 00:21:11 --> Class 'PHPMailer\PHPMailer\PHPMailer' not found
+#0 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->aksi_forgot_password()
+#1 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#5 {main}
+CRITICAL - 2025-04-20 00:21:28 --> Class 'PHPMailer\PHPMailer\PHPMailer' not found
+#0 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->aksi_forgot_password()
+#1 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#5 {main}
+CRITICAL - 2025-04-20 00:25:03 --> Class 'PHPMailer\PHPMailer\PHPMailer' not found
+#0 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->aksi_forgot_password()
+#1 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#5 {main}
+CRITICAL - 2025-04-20 00:36:47 --> Class 'PHPMailer\PHPMailer\PHPMailer' not found
+#0 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->aksi_forgot_password()
+#1 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#5 {main}
+CRITICAL - 2025-04-20 00:46:46 --> Class 'PHPMailer\PHPMailer\PHPMailer' not found
+#0 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->aksi_forgot_password()
+#1 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#5 {main}
+CRITICAL - 2025-04-20 00:52:43 --> Class 'PHPMailer\PHPMailer\PHPMailer' not found
+#0 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->aksi_forgot_password()
+#1 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#5 {main}
+CRITICAL - 2025-04-20 00:54:36 --> Class 'PHPMailer\PHPMailer\PHPMailer' not found
+#0 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(832): App\Controllers\Home->aksi_forgot_password()
+#1 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\Program Web\pernikahan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\Program Web\pernikahan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\Program Web\pernikahan\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Pro...')
+#5 {main}

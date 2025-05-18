@@ -1,0 +1,23 @@
+ERROR - 2025-05-16 00:46:17 --> Session id_user is missing.
+ERROR - 2025-05-16 08:50:26 --> Session id_user is missing.
+ERROR - 2025-05-16 09:22:05 --> Unknown column 'stok' in 'field list'
+ERROR - 2025-05-16 09:23:04 --> Unknown column 'stok' in 'field list'
+ERROR - 2025-05-16 09:24:52 --> Unknown column 'stok' in 'field list'
+CRITICAL - 2025-05-16 09:37:26 --> Too few arguments to function App\Controllers\Transaksi::bayar(), 0 passed in G:\My Drive\Toko Hp\TokoHp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\Toko Hp\TokoHp\system\CodeIgniter.php(832): App\Controllers\Transaksi->bayar()
+#1 G:\My Drive\Toko Hp\TokoHp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 G:\My Drive\Toko Hp\TokoHp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\Toko Hp\TokoHp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\Toko Hp\TokoHp\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Tok...')
+#5 {main}
+CRITICAL - 2025-05-16 09:39:41 --> Too few arguments to function App\Controllers\Transaksi::bayar(), 0 passed in G:\My Drive\Toko Hp\TokoHp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\Toko Hp\TokoHp\system\CodeIgniter.php(832): App\Controllers\Transaksi->bayar()
+#1 G:\My Drive\Toko Hp\TokoHp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 G:\My Drive\Toko Hp\TokoHp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\Toko Hp\TokoHp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\Toko Hp\TokoHp\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Tok...')
+#5 {main}
+ERROR - 2025-05-16 10:02:40 --> Session id_user is missing.
+ERROR - 2025-05-16 10:04:12 --> Session id_user is missing.
+ERROR - 2025-05-16 10:40:38 --> Session id_user is missing.
+ERROR - 2025-05-16 11:19:01 --> Session id_user is missing.
